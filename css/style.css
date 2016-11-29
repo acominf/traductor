@@ -469,6 +469,17 @@ hr
 }
 /****--------------------------------RESPONSIVE-----------------------------------------------------*****/
 
+@media (min-width: 319px) and (max-width: 700px)
+{
+	.movil
+	{
+		display: block;
+	}
+	.escritorio
+	{
+		display: none;
+	}
+}
 @media (min-width: 319px) and (max-width: 1160px)
 {
 	.frente
@@ -550,18 +561,4 @@ hr
 		padding-top: 10%;
 	}
 
-	.movil
-	{
-		display: block;
-	}
-
-	.escritorio
-	{
-		display: none;
-	}
-
-	.cuadro
-	{
-		padding: 10%;
-	}
 }
