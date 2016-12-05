@@ -46,7 +46,7 @@ function sendMail($subject, $body, $file_to_attach = null){
     $mail->IsSMTP();
     $mail->Mailer = 'smtp';
     $mail->SMTPAuth = true;
-    $mail->Host = "mail.qmarketing.mx";
+    $mail->Host = " gator3058.hostgator.com";
     $mail->Port = 465;// 587;//465; // 25;
     $mail->SMTPSecure = 'ssl';//"ssl";//'tls';                            // Enable TLS encryption, `ssl` also accepted
 
@@ -54,8 +54,8 @@ function sendMail($subject, $body, $file_to_attach = null){
     $mail->ContentType = "text/html";
     $mail->CharSet = "UTF-8";
 
-    $mail->Username = "contacto@qmarketing.mx";
-    $mail->Password = "Qmi1683346";
+    $mail->Username = "sender@hormadi.clientesquantum.com";
+    $mail->Password = "dCS+OLpKPC}L";
 
     $mail->IsHTML(true); // if you are going to send HTML formatted emails
     $mail->SingleTo = false; // if you want to send a same email to multiple users. multiple emails will be sent one-by-one.
