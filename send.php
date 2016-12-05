@@ -66,9 +66,9 @@ function sendMail($subject, $body, $file_to_attach = null){
 
     //$mail->addAddress("juancarlosddl@gmail.com","");
     $mail->AddBCC("karla@qmarketing.mx","");
-    $mail->AddBCC("kerulo@me.com","");
-    $mail->addBCC("everardopalmero@gmail.com","");
-    $mail->addBCC("contacto@qmarketing.mx","");
+    //$mail->AddBCC("kerulo@me.com","");
+    //$mail->addBCC("everardopalmero@gmail.com","");
+    //$mail->addBCC("contacto@qmarketing.mx","");
 
 
 
