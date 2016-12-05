@@ -467,6 +467,28 @@ hr
 {
 	font-weight: 900;
 }
+
+.foto
+{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.padd
+{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+	font-size: 15px;
+}
+
+iframe
+{
+	width: 100%;
+	height: 350px;
+
+}
+
 /****--------------------------------RESPONSIVE-----------------------------------------------------*****/
 
 @media (min-width: 319px) and (max-width: 700px)
@@ -478,6 +500,13 @@ hr
 	.escritorio
 	{
 		display: none;
+	}
+
+	iframe
+	{
+		height: auto !important;
+		margin-top: 2%;
+		margin-bottom: 2%;
 	}
 }
 @media (min-width: 319px) and (max-width: 1160px)
